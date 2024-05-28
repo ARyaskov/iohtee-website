@@ -22,5 +22,13 @@ module.exports = {
         path: `${__dirname}/data/`,
       },
     },
+    {
+      resolve: "gatsby-plugin-svgr-loader",
+      options: {
+        rule: {
+          include: "/src/pages/indexPage/"
+        }
+      }
+    }
   ]
 }

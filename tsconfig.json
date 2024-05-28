@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
-    "lib": ["es2017", "dom"],
+    "target": "es2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["es2020", "dom"],
     "jsx": "react",
+    "jsxImportSource": "@emotion/react",
     "sourceMap": true,
     "declaration": true,
-    "strict": true,
+    "strict": false,
     "noImplicitReturns": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,

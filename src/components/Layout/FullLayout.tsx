@@ -10,10 +10,23 @@ export interface Props extends Links {
 }
 
 export default class FullLayout extends React.Component<Props> {
-  render () {
-    return <HeadingLayout title={this.props.title} twitter={this.props.twitter} gitter={this.props.gitter} github={this.props.github} medium={this.props.medium}>
-      {this.props.children}
-      <Footer twitter={this.props.twitter} gitter={this.props.gitter} github={this.props.github} medium={this.props.medium} />
-    </HeadingLayout>
+  render() {
+    return (
+      <HeadingLayout
+        title={this.props.title}
+        twitter={this.props.twitter}
+        gitter={this.props.gitter}
+        github={this.props.github}
+        medium={this.props.medium}
+      >
+        {this.props.children}
+        <Footer
+          twitter={this.props.twitter}
+          gitter={this.props.gitter}
+          github={this.props.github}
+          medium={this.props.medium}
+        />
+      </HeadingLayout>
+    )
   }
 }
