@@ -7243,18 +7243,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es5-ext@npm:^0.10.35, es5-ext@npm:^0.10.9, es5-ext@npm:~0.10.14":
-  version: 0.10.45
-  resolution: "es5-ext@npm:0.10.45"
-  dependencies:
-    es6-iterator: "npm:~2.0.3"
-    es6-symbol: "npm:~3.1.1"
-    next-tick: "npm:1"
-  checksum: 10c0/0fb3c5dbd347832e6b43d0363739cd948d589444c0c67b6ec78e927b45122fb40b4f1af831de467f3bdb214d367fed9534ea17713abe356b798a927c1ddae624
-  languageName: node
-  linkType: hard
-
-"es5-ext@npm:^0.10.46, es5-ext@npm:^0.10.62, es5-ext@npm:^0.10.64, es5-ext@npm:~0.10.2, es5-ext@npm:~0.10.46":
+"es5-ext@npm:^0.10.35, es5-ext@npm:^0.10.46, es5-ext@npm:^0.10.62, es5-ext@npm:^0.10.64, es5-ext@npm:^0.10.9, es5-ext@npm:~0.10.14, es5-ext@npm:~0.10.2, es5-ext@npm:~0.10.46":
   version: 0.10.64
   resolution: "es5-ext@npm:0.10.64"
   dependencies:
@@ -7266,7 +7255,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es6-iterator@npm:^2.0.3, es6-iterator@npm:~2.0.3":
+"es6-iterator@npm:^2.0.3":
   version: 2.0.3
   resolution: "es6-iterator@npm:2.0.3"
   dependencies:
@@ -7284,7 +7273,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es6-symbol@npm:^3.1.1, es6-symbol@npm:~3.1.1":
+"es6-symbol@npm:^3.1.1":
   version: 3.1.1
   resolution: "es6-symbol@npm:3.1.1"
   dependencies:
