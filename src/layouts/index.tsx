@@ -3,12 +3,11 @@ import { graphql } from 'gatsby'
 import FullLayout from '../components/Layout/FullLayout'
 
 export type Props = {
-  children: Function
+  children: any
   data: any
 }
 
-export default function Index(props: Props) {
-  let children = props.children
+export default function IndexLayout(props: Props) {
   let links = props.data.site.siteMetadata.links
   let title = props.data.site.siteMetadata.title
   return (
@@ -19,7 +18,7 @@ export default function Index(props: Props) {
       github={links.github}
       medium={links.medium}
     >
-      {children()}
+      {props.children}
     </FullLayout>
   )
 }

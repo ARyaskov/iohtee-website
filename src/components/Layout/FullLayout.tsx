@@ -6,12 +6,14 @@ import Links from './Links'
 import HeadingLayout from './HeadingLayout'
 
 export interface Props extends Links {
+  children: any
   title: string
 }
 
 export default class FullLayout extends React.Component<Props> {
   render() {
     return (
+      <>
       <HeadingLayout
         title={this.props.title}
         twitter={this.props.twitter}
@@ -19,14 +21,14 @@ export default class FullLayout extends React.Component<Props> {
         github={this.props.github}
         medium={this.props.medium}
       >
-        {this.props.children}
-        <Footer
-          twitter={this.props.twitter}
-          gitter={this.props.gitter}
-          github={this.props.github}
-          medium={this.props.medium}
-        />
       </HeadingLayout>
+      {this.props.children}
+      <Footer
+        twitter={this.props.twitter}
+        gitter={this.props.gitter}
+        github={this.props.github}
+        medium={this.props.medium}
+      /></>
     )
   }
 }

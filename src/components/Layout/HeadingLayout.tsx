@@ -9,39 +9,23 @@ import Links from './Links'
 
 export interface Props extends Links {
   title: string
-  children: any
 }
 
 export default class HeadingLayout extends React.Component<Props> {
   render() {
     return (
       <div>
-        <Helmet
-          title={this.props.title}
-          meta={[
-            {
-              name: 'viewport',
-              content: 'width=device-width, initial-scale=1.0',
-            },
-            {
-              name: 'og:title',
-              content: 'Machinomy – micropayments on Ethereum',
-            },
-            { name: 'og:type', content: 'website' },
-            { name: 'og:url', content: 'https://machinomy.com' },
-            {
-              name: 'og:image',
-              content: 'https://machinomy.com/images/robot_on_pink.png',
-            },
-            { name: 'og:description', content: 'Micropayments on Ethereum' },
-            { name: '', content: '' },
-            { name: 'description', content: 'Micropayments on Ethereum' },
-            {
-              name: 'keywords',
-              content: 'micropayments, state channels, ethereum, blockchain',
-            },
-          ]}
-        />
+        {/*<Helmet>*/}
+        {/*  <title>{this.props.title}</title>*/}
+        {/*  <meta name="viewport" content="width=device-width, initial-scale=1.0" />*/}
+        {/*  <meta name="og:title" content="Machinomy – micropayments on Ethereum" />*/}
+        {/*  <meta name="og:type" content="website" />*/}
+        {/*  <meta name="og:url" content="https://machinomy.com" />*/}
+        {/*  <meta name="og:image" content="https://machinomy.com/images/robot_on_pink.png" />*/}
+        {/*  <meta name="og:description" content="Micropayments on Ethereum" />*/}
+        {/*  <meta name="description" content="Micropayments on Ethereum" />*/}
+        {/*  <meta name="keywords" content="micropayments, state channels, ethereum, blockchain" />*/}
+        {/*</Helmet>*/}
         <ThemeProvider theme={theme}>
           <div>
             <Header
@@ -50,7 +34,6 @@ export default class HeadingLayout extends React.Component<Props> {
               github={this.props.github}
               medium={this.props.medium}
             />
-            {this.props.children}
           </div>
         </ThemeProvider>
       </div>

@@ -28,16 +28,23 @@ export default class Api extends React.Component<Props> {
 
 export const query = graphql`
   query ApiFilesQuery {
-    allMarkdownRemark(limit: 1, filter: { id: { regex: "/machinomy/" } }) {
-      edges {
-        node {
-          frontmatter {
-            title
-            name
+      allMarkdownRemark(limit: 1, filter: { 
+          frontmatter: 
+            { name: 
+                { 
+                    regex: "/iohtee/"
+                }
+            }
+      }) {
+          edges {
+              node {
+                  frontmatter {
+                      title
+                      name
+                  }
+                  html
+              }
           }
-          html
-        }
       }
-    }
   }
 `

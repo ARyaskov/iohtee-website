@@ -1,18 +1,18 @@
 ---
-version: 1.10.2
-name: machinomy
-title: Machinomy v1.10.2
+version: 2.0.0
+name: iohtee
+title: IohTee v2.0.0
 ---
 
-# Machinomy API
+# IohTee API
 
-Machinomy is a library for ETH and ERC20 micropayments. The library could be freely embedded into your software both in browser and server environments.
+IohTee is a library for ETH and ERC20 micropayments. The library could be freely embedded into your software both in browser and server environments.
 
 The library implements unidirectional payment channel pattern. It works like a bar tab. A sender opens a channel and deposits the funds there. Over time she sends promised payments to a receiver. A promised payment is a signed data structure that the receiver could redeem at the smart contract.
 
 ## Initialization
 
-Work with Machinomy starts with constructor.
+Work with IohTee starts with constructor.
 
 ```typescript
 import Machinomy from 'machinomy'

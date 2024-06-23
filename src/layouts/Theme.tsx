@@ -2,7 +2,7 @@ const DEFAULT_OFFSET = '0.5rem'
 
 const theme = {
   palette: {
-    primary: '#de5080',
+    primary: '#00b2ff',
     secondary: '#777',
     success: '#3adb76',
     warning: '#ffae00',

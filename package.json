@@ -10,24 +10,20 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@types/react-helmet": "^6.1.11",
-    "buffer": "^6.0.3",
-    "emotion": "^11.0.0",
-    "emotion-server": "^11.0.0",
-    "emotion-theming": "^11.0.0",
-    "gatsby": "^5.13.5",
+    "gatsby": "^5.13.6",
     "gatsby-link": "^5.13.1",
     "gatsby-plugin-emotion": "^8.13.1",
     "gatsby-plugin-ipfs": "^2.0.2",
-    "gatsby-plugin-react-helmet": "^6.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-svgr-loader": "^0.1.0",
     "gatsby-plugin-typescript": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
-    "gatsby-transformer-remark": "^5.25.1",
+    "gatsby-transformer-remark": "^6.13.1",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "tsx": "^4.11.0"
+    "tsx": "^4.15.7"
   },
   "keywords": [
     "machinomy"

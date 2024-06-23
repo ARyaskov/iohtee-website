@@ -3,12 +3,11 @@ import { graphql } from 'gatsby'
 import HeadingLayout from '../components/Layout/HeadingLayout'
 
 export type Props = {
-  children: Function
+  children: any
   data: any
 }
 
 export default function Heading(props: Props) {
-  let children = props.children
   let links = props.data.site.siteMetadata.links
   let title = props.data.site.siteMetadata.title
   return (
@@ -19,7 +18,7 @@ export default function Heading(props: Props) {
       github={links.github}
       medium={links.medium}
     >
-      {children()}
+      {props.children}
     </HeadingLayout>
   )
 }

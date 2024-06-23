@@ -1,24 +1,24 @@
 import React, { useState } from 'react'
 import { Link } from 'gatsby'
-import { Hamburger } from './Hamburger.js'
+import { Hamburger } from './Hamburger'
 import '../Layout/index.css'
 import styled from '@emotion/styled'
 import { css, useTheme } from '@emotion/react'
 
 const Expanded = styled.div`
-  background-color: ${(props) => props.theme.palette.primary};
+  background-color: ${(props: any) => props.theme.palette.primary};
   color: white;
   max-width: none;
   margin-left: auto;
   margin-right: auto;
 
-  @media (max-width: ${(props) => props.theme.breakpoints.medium}) {
-    padding: ${(props) => props.theme.topbarPadding} 0;
+  @media (max-width: ${(props: any) => props.theme.breakpoints.medium}) {
+    padding: ${(props: any) => props.theme.topbarPadding} 0;
   }
 `
 
 const LogoLink = styled(Link)`
-  height: ${(props) => props.theme.topBar.lineHeight};
+  height: ${(props: any) => props.theme.topBar.lineHeight};
   font-family: 'PT Mono', monospace;
   font-size: 16pt;
   font-weight: 700;
@@ -29,9 +29,9 @@ const LogoLink = styled(Link)`
   vertical-align: top;
   width: 1%;
   white-space: nowrap;
-  line-height: ${(props) => props.theme.topBar.lineHeight};
+  line-height: ${(props: any) => props.theme.topBar.lineHeight};
 
-  @media (max-width: ${(props) => props.theme.breakpoints.medium}) {
+  @media (max-width: ${(props: any) => props.theme.breakpoints.medium}) {
     line-height: inherit;
     height: inherit;
     text-align: left;
@@ -59,7 +59,7 @@ const TopBar: React.FC<Props> = ({ menu, iconMenu }) => {
     <Expanded>
       <div className="grid-x grid-padding-x">
         <div className="medium-4 cell text-right logo small-5">
-          <LogoLink to="/">Machinomy</LogoLink>
+          <LogoLink to="/">IohTee</LogoLink>
         </div>
         <div
           className="small-7 cell text-right show-for-small-only"
