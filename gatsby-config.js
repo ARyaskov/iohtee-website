@@ -1,12 +1,12 @@
 module.exports = {
   pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
   siteMetadata: {
-    title: 'Machinomy – micropayments on Ethereum',
+    title: 'IohTee – Zero-fee payments for EVM',
     links: {
-      twitter: 'https://twitter.com/machinomy',
+      twitter: '',
       gitter: 'https://',
       github: 'https://github.com/ARyaskov/iohtee',
-      medium: 'https://medium.com/machinomy'
+      medium: ''
     }
   },
   plugins: [

@@ -162,7 +162,7 @@ const IndexPage: React.FC = () => (
             </li>
             <li>
               <p>
-                Follow us on <a href="//twitter.com/machinomy">Twitter</a>
+                Follow us on <a href="//twitter.com/">Twitter</a>
               </p>
             </li>
           </ol>

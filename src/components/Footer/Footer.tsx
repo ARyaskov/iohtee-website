@@ -33,7 +33,7 @@ const Line = styled.hr`
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #de5080;
+  border-top: 1px solid #00b2ff;
   margin: 1em 0;
   padding: 0;
 `
@@ -76,11 +76,9 @@ const Footer: React.FC<Props> = ({ twitter, gitter, github }) => {
             </a>
           </li>
         </Menu>
-        {/*<Line/> FIXME*/}
-        {/*<Menu className="menu">*/}
-        {/*<li><a href="/documentation">Documentation</a></li>*/}
-        {/*<li><a href="/blog">Blog</a></li>*/}
-        {/*</Menu>*/}
+        <Line/>
+         This project is the second life of the fabulous <a href="https://github.com/machinomy/machinomy" target={"_blank"}>Machinomy library</a> written in 2016 by Sergey Ukustov and Machinomy Team. <br/>
+         Since original repositories are in Public Archive status now, we've relaunched the project with new features and a modern tech stack supported.
       </div>
     </Row>
   )
