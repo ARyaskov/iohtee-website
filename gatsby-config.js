@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
+  pathPrefix: '',
   siteMetadata: {
     title: 'IohTee – Zero-fee payments for EVM',
     links: {

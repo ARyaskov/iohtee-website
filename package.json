@@ -1,9 +1,15 @@
 {
-  "name": "@riaskov/machinomy-website",
-  "description": "machinomy.com website",
+  "name": "@riaskov/iohtee-website",
+  "description": "iohtee website",
   "private": true,
   "version": "2.0.0",
   "author": "Team Machinomy <hello@machinomy.com>",
+  "contributors": [
+    {
+      "name": "Andrei Riaskov",
+      "email": "code@riaskov.com"
+    }
+  ],
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",

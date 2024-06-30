@@ -78,7 +78,7 @@ const Footer: React.FC<Props> = ({ twitter, gitter, github }) => {
         </Menu>
         <Line/>
          This project is the second life of the fabulous <a href="https://github.com/machinomy/machinomy" target={"_blank"}>Machinomy library</a> written in 2016 by Sergey Ukustov and Machinomy Team. <br/>
-         Since original repositories are in Public Archive status now, we've relaunched the project with new features and a modern tech stack supported.
+         Since original repositories are in Public Archive status now, we (ToivoTech) have relaunched the project with new features and a modern tech stack supported.
       </div>
     </Row>
   )
